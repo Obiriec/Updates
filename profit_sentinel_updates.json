@@ -1,7 +1,9 @@
 {
   "version": "1.9.2",
   "build_date": "2025-06-20",
-  "download_url": "https://obiriec.github.io/updates/Manuale Ufficiale Profit Sentinel v1.6.9.pdf\nPuoi trovare il link nel LOG.",
+  "download_url": [ "https://obiriec.github.io/updates/Manuale Ufficiale Profit Sentinel v1.6.9.pdf",
+    "Puoi trovare il link nel LOG."
+    ]
   "required": false,
   "message": "È disponibile una nuova versione con miglioramenti al TP Dinamico e correzioni bug.",
   "changelog": [
