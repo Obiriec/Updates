@@ -1,12 +1,11 @@
 {
-  "version": "3.1.5",
-  "build_date": "2025-05-10",
-  "download_url": "https://obiriec.github.io/Updates/Realtime_Risk/Readme.txt",
-  "required": false,
-  "message": "È disponibile una nuova versione con miglioramenti al TP Dinamico e correzioni bug.",
+  "version": "3.1.6",
+  "build_date": "2025-05-20",
+  "download_url": "https://example.com/Realtime_Risk_3.1.6.zip",
+  "required": true,
+  "message": "Nuova versione obbligatoria per la sicurezza.",
   "changelog": [
-    "✅ Migliorato algoritmo TP Dinamico",
-    "🛠️ Corretto bug nel calcolo del margine",
-    "📊 Ottimizzata visualizzazione HUD"
+    "Implementato sistema di verifica licenza",
+    "Aggiunta notifica automatica di nuove versioni"
   ]
 }
