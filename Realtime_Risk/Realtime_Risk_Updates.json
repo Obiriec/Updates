@@ -1,11 +1,13 @@
-{
-  "version": "3.1.6",
-  "build_date": "2025-05-10",
-  "download_url": "https://obiriec.github.io/Updates/Realtime_Risk/Readme.txt",
-  "required": false,
-  "message": "Nuova versione obbligatoria per la sicurezza.",
-  "changelog": [
-    "Implementato sistema di verifica licenza",
-    "Aggiunta notifica automatica di nuove versioni"
-  ]
-}
+   {
+     "version": "3.1.6",
+     "build_date": "2025-05-20",
+     "download_url": "https://example.com/download/Realtime_Risk_3.1.6.zip",
+     "required": false,
+     "message": "Versione con miglioramenti della stabilità",
+     "changelog": [
+       "Implementato sistema di verifica licenza",
+       "Aggiunta notifica automatica di nuove versioni",
+       "Migliorata gestione degli errori"
+     ]
+   }
+   
