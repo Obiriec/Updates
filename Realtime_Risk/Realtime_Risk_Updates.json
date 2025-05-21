@@ -1,7 +1,7 @@
-   {
+.   {
      "version": "3.1.9",
      "build_date": "2025-05-21",
-     "download_url": "https://github.com/Obiriec/Updates/Realtime_Risk/Realtime_Risk_Monitor.zip",
+     "download_url": "https://obiriec.github.io/Updates/Realtime_Risk/Realtime_Risk_Monitor.zip",
      "required": false,
      "message": "Versione con miglioramenti della stabilità",
      "changelog": [
