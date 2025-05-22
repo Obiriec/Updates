@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 1.9.1 - Sistema Controllo Aggiornamenti e Gestione Licenze
-// Build Date: 2025-05-17
+// Versione: 1.9.2 - Sistema Licenze Avanzato con Auto-Nascondimento
+// Build Date: 2025-05-22
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ====================================================================================================
@@ -315,3 +315,11 @@
 //           - 🔄 Verifica periodica degli aggiornamenti (ogni 24 ore)
 //           - 📊 Integrazione completa con server di licenze e aggiornamenti
 //           - 🔧 Correzioni minori e miglioramenti di stabilità generali
+//
+//    v1.9.2 (22 Maggio 2025 - Sistema Licenze Avanzato con Auto-Nascondimento)
+//           - ✅ Migliorata visualizzazione informazioni licenza con formattazione avanzata e dettagliata
+//           - ⏲️ Aggiunto parametro configurabile per auto-nascondere il messaggio licenza dopo X secondi
+//           - 📊 Aggiunto contatore visibile su schermo per il tempo rimanente prima della rimozione
+//           - 🔧 Implementata gestione automatica dello stato di visualizzazione della licenza
+//           - 🛡️ Ottimizzato e centralizzato il sistema di verifica licenza con gestione eventi
+//           - 🖥️ Migliorato posizionamento e formattazione delle informazioni a schermo
