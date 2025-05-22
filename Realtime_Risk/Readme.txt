@@ -1,9 +1,10 @@
 // -------------------------------------------------------------------------------
 // Realtime % Risk Monitor (by Fury Team)
-// Versione: 3.1.4
-// Data di rilascio: 2025-05-20
+// Versione: 3.4.0
+// Data di rilascio: 2025-05-22
 // Autore: Armando Brecciaroli – Fury Team ©
-//
+// -------------------------------------------------------------------------------
+//   
 // Descrizione completa:
 //     Sistema avanzato di monitoraggio realtime del rischio operativo per trading live.
 //     Funzionalità principali:
@@ -19,9 +20,11 @@
 //     - Equity Liquidator intelligente con trailing profit e gestione Stoploss target dinamico.
 //     - Visualizzazione HUD del Liquidator: Equity Profit Target %, Loss Target %, Max Equity raggiunto, Trailing SL attivo.
 //     - Slider Liquidator con stato percentuale, emoji dinamiche e colore variabile in progressione realistica.
-//     - Aggiornamento frequenza slider liquido e transizioni gradienti fluide verso il Gold.
+//     - Sistema avanzato di licenza con verifica crittografica e supporto offline.
+//     - Value at Risk (VaR) per analisi avanzata del rischio di portafoglio.
 //     - Versione ultra-stabile ottimizzata per reale operatività live.
 //     - Prodotto completo, sicuro e aggiornato 2025.
+//     - Sistema predittivo ML per previsione del rischio futuro con allerte anticipate.
 //
 // Changelog:
 //     v1.0.0 - Prima versione base Risk Monitor (solo Risk%).
@@ -105,6 +108,55 @@
 //              - Migliorata sicurezza e verifica account utente
 //              - Visualizzazione dei changelog e note di rilascio
 //              - Integrazione completa con server di licenze e aggiornamenti
+//
+//     v3.1.7 - (21.05.2025):
+//              - Migliorata gestione dei volumi minimi nelle chiusure parziali
+//              - Rilevamento automatico di volumi residui non validi
+//              - Ottimizzazione della chiusura posizioni per evitare volumi residui inferiori al minimo
+//              - Chiusura automatica completa quando il volume residuo sarebbe non valido
+//              - Migliorato logging dettagliato delle operazioni di chiusura
+//              - Maggiore robustezza e completezza del sistema
+//
+//     v3.1.8 - (21.05.2025):
+//              - Aggiornamento versione e header a 3.1.8
+//              - Migliorata la gestione della versione interna: BUILD_ID non più modificabile da menu
+//              - Sicurezza logica controllo aggiornamenti rafforzata
+//
+//     v3.1.9 - (21.05.2025):
+//              - Implementazione metriche di performance avanzate: Sharpe, Sortino e Calmar Ratio
+//              - Calcolo automatico del Maximum Drawdown storico
+//              - Monitoraggio dei rendimenti con buffer configurabile
+//              - Visualizzazione delle metriche nel pannello statistiche
+//              - Opzioni personalizzabili per tasso privo di rischio e rendimento minimo accettabile
+//              - Performance ottimizzata grazie a calcoli efficienti delle metriche
+//
+//     v3.2.0 - (22.05.2025):
+//              - Implementazione Value at Risk (VaR) per analisi rischio avanzata
+//              - Supporto per calcolo VaR parametrico e storico
+//              - Configurazione livello di confidenza e orizzonte temporale personalizzabili
+//              - Visualizzazione del VaR in percentuale e valore assoluto
+//              - Integrazione con le metriche di performance esistenti
+//              - Ottimizzazione attraverso calcoli periodici per risparmio risorse
+//
+//     v3.3.0 - (21.05.2025):
+//              - Implementazione sistema avanzato di licenza con firma digitale
+//              - Verifica crittografica della validità della licenza
+//              - Sistema anti-tampering per prevenire manomissioni
+//              - Supporto per modalità offline con gestione cache locale
+//              - Compatibilità con diversi tipi di licenza (Standard, Pro, Trial)
+//              - Visualizzazione dettagliata dello stato della licenza
+//              - Sistema di protezione contro tentativi eccessivi di manomissione
+//              - Interfaccia licenza migliorata con rimozione automatica
+//
+//     v3.4.0 - (22.05.2025):
+//              - Implementazione sistema predittivo ML per il rischio
+//              - Tre diversi algoritmi di predizione: regressione lineare, smoothing esponenziale e ensemble
+//              - Visualizzazione predittiva con trend, accuratezza e confidenza
+//              - Allerte predittive basate su soglie configurabili
+//              - Visualizzazione dettagli tecnici del modello (opzionale)
+//              - Ottimizzazione dei calcoli con aggiornamento periodico
+//              - Integrazione con i dati storici di rischio, drawdown ed efficienza
+//              - Posizionamento intelligente dell'HUD predittivo
 //
 //
 // Note:
