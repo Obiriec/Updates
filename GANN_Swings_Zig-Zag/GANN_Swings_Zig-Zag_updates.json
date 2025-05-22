@@ -1,0 +1,12 @@
+{
+  "version": "1.1.8",
+  "build_date": "2025-05-21",
+  "download_url": "https://obiriec.github.io/Updates/GANN_Swings_Zig-Zag/GANN_Swings_Zig-Zag.zip",
+  "required": false,
+  "message": "È disponibile una nuova versione con miglioramenti al TP Dinamico e correzioni bug.",
+  "changelog": [
+    "✅ Migliorato algoritmo TP Dinamico",
+    "🛠️ Corretto bug nel calcolo del margine",
+    "📊 Ottimizzata visualizzazione HUD"
+  ]
+}
