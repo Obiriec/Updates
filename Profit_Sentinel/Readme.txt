@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 1.9.2 - Sistema Licenze Avanzato con Auto-Nascondimento
-// Build Date: 2025-05-22
+// Versione: 1.9.3 - Filtro Distanza Dinamico Avanzato
+// Build Date: 2025-05-26
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ====================================================================================================
@@ -323,3 +323,11 @@
 //           - 🔧 Implementata gestione automatica dello stato di visualizzazione della licenza
 //           - 🛡️ Ottimizzato e centralizzato il sistema di verifica licenza con gestione eventi
 //           - 🖥️ Migliorato posizionamento e formattazione delle informazioni a schermo
+//
+//    v1.9.3 (26 Maggio 2025 - Filtro Distanza Dinamico Avanzato)
+//           - ✅ Migliorato calcolo della distanza di sicurezza con adattamento proporzionale ai lotti aperti
+//           - 📊 Implementata formula logaritmica per incremento dinamico della distanza minima tra recovery
+//           - 🧮 Volume totale delle posizioni aperte ora influisce direttamente sulla distanza richiesta
+//           - 🛡️ Protezione incrementale: maggiore è l'esposizione, più alta è la distanza di sicurezza
+//           - 🔄 Fattore di scaling volume con crescita progressiva (1.0 + Log10(1.0 + totalOpenLots))
+//           - 📈 Visibilità completa nel log per tutti i fattori di calcolo della distanza dinamica
