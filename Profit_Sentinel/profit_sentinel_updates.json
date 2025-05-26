@@ -1,12 +1,15 @@
 {
-  "version": "1.9.2",
+  "version": "1.9.3",
   "build_date": "2025-05-21",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
-  "required": false,
-  "message": "È disponibile una nuova versione con miglioramenti al TP Dinamico e correzioni bug.",
+  "required": true,
+  "message": "È disponibile una nuova versione con miglioramenti sul Filtro Distanza Dinamico Avanzato.",
   "changelog": [
-    "✅ Migliorato algoritmo TP Dinamico",
-    "🛠️ Corretto bug nel calcolo del margine",
-    "📊 Ottimizzata visualizzazione HUD"
+    "✅ Migliorato calcolo della distanza di sicurezza con adattamento proporzionale ai lotti aperti",
+"📊 Implementata formula logaritmica per incremento dinamico della distanza minima tra recovery",
+"🧮 Volume totale delle posizioni aperte ora influisce direttamente sulla distanza richiesta",
+"🛡️ Protezione incrementale: maggiore è l'esposizione, più alta è la distanza di sicurezza",
+"🔄 Fattore di scaling volume con crescita progressiva (1.0 + Log10(1.0 + totalOpenLots))",
+"📈 Visibilità completa nel log per tutti i fattori di calcolo della distanza dinamica"
   ]
 }
