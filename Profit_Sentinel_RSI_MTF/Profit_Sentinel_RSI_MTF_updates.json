@@ -1,1 +1,15 @@
-
+{
+  "version": "1.3.3",
+  "build_date": "2025-06-15",
+  "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel_RSI_MTF/Profit_Sentinel_RSI_MTF.zip",
+  "required": false,
+  "message": "Nuova versione con miglioramenti significativi alla gestione dei segnali e dell'interfaccia utente.",
+  "changelog": [
+    "Risolto bug nella visualizzazione dei messaggi di licenza",
+    "Migliorato il sistema di rimozione automatica degli oggetti grafici",
+    "Ottimizzati i controlli sul timeframe per evitare configurazioni non valide",
+    "Migliorata la gestione degli errori in fase di inizializzazione",
+    "Aggiunto supporto per il debug avanzato con log dettagliati",
+    "Ridotto il consumo di memoria durante l'esecuzione"
+  ]
+}
