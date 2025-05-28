@@ -2,7 +2,7 @@
   "version": "1.3.4",
   "build_date": "2025-06-15",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel_RSI_MTF/Profit_Sentinel_RSI_MTF.zip",
-  "required": false,
+  "required": true,
   "message": "Nuova versione con miglioramenti significativi alla gestione dei segnali e dell'interfaccia utente.",
   "changelog": [
     "Risolto bug nella visualizzazione dei messaggi di licenza",
