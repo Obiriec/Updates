@@ -1,1 +1,15 @@
-
+{
+  "version": "1.0.1",
+  "build_date": "2025-06-15",
+  "download_url": "https://Obiriec.github.io/Updates/cBot_Base/cBot_Base.zip",
+  "required": false,
+  "message": "È disponibile una nuova versione con miglioramenti alla stabilità e correzioni di bug importanti.",
+  "changelog": [
+    "Risolto il problema di crash all'avvio con thread dell'interfaccia utente",
+    "Migliorata la gestione della licenza offline",
+    "Ottimizzato il sistema di aggiornamenti automatico",
+    "Aggiunta maggiore resilienza alla disconnessione di rete",
+    "Migliorata la compatibilità con simboli personalizzati",
+    "Ridotto l'utilizzo di memoria durante l'esecuzione prolungata"
+  ]
+}
