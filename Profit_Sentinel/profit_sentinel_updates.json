@@ -2,7 +2,7 @@
   "version": "2.2.0",
   "build_date": "2025-06-04",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
-  "required": false,
+  "required": true,
   "message": "È disponibile una nuova versione con implementazione completa del sistema Recovery e Ottimizzazioni.",
   "changelog": [
     "✅ Migliorata visualizzazione della soglia DD minima per recovery nell'HUD",
