@@ -6,7 +6,7 @@
   "message": "È disponibile una nuova versione con implementazione completa del sistema Recovery e Ottimizzazioni.",
   "changelog": [
     "✅ Migliorata visualizzazione della soglia DD minima per recovery nell'HUD",
-    "📊 Aggiunta formattazione dettagliata: "Soglia DD minima: 17.23% (8.23% + 9.00%)",
+    "📊 Aggiunta formattazione dettagliata: Soglia DD minima: 17.23% (8.23% + 9.00%)",
     "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici",
     "🔄 Correzioni formattazione numerica con precisione decimali dal broker",
     "📱 HUD operativo aggiornato con informazioni più chiare sulla soglia DD",
