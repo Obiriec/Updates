@@ -1,11 +1,11 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 1.9.3 - Filtro Distanza Dinamico Avanzato
-// Build Date: 2025-05-26
+// Versione: 2.2.0 - Sistema Licenze e Controllo Aggiornamenti
+// Build Date: 04-06-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
-// ====================================================================================================
+// ==================================================================================
 //
 // DESCRIZIONE:
 // ProfitSentinel è un cBot avanzato per la piattaforma cTrader, progettato per la gestione automatizzata
@@ -331,3 +331,70 @@
 //           - 🛡️ Protezione incrementale: maggiore è l'esposizione, più alta è la distanza di sicurezza
 //           - 🔄 Fattore di scaling volume con crescita progressiva (1.0 + Log10(1.0 + totalOpenLots))
 //           - 📈 Visibilità completa nel log per tutti i fattori di calcolo della distanza dinamica
+//
+//    v1.9.4 (30 Maggio 2025 - Sistema Integrato di Controllo e Sicurezza)
+//           - ✅ Sistema completo di verifica licenze con modalità online/offline e controllo integrità
+//           - 🔄 Implementazione controllo automatico degli aggiornamenti con notifiche interattive
+//           - 🔐 Sistema di blocco operatività in caso di aggiornamenti obbligatori disponibili
+//           - 🛡️ Protezione avanzata contro spread anomali con campionamento storico intelligente
+//           - 🔍 Gestione migliorata dei cooldown tra recovery con scaling proporzionale ai volumi
+//           - 📊 Sistema diagnostico RSI potenziato con metriche di qualità e visualizzazione dettagliata
+//           - ⏱️ Visualizzazioni HUD ottimizzate con auto-nascondimento informazioni non essenziali
+//           - 📈 Log strutturato a categorie per tracciamento completo delle operazioni
+//           - 🧠 Funzioni diagnostiche avanzate per troubleshooting in tempo reale
+//           - 🔧 Ottimizzazioni prestazionali per riduzione overhead computazionale e HUD
+//
+//    v2.0.0 (31 Maggio 2025 - Aggiornamento Visualizzazione Recovery e Ottimizzazioni)
+//           - ✅ Migliorata visualizzazione della soglia DD minima per recovery nell'HUD
+//           - 📊 Aggiunta formattazione dettagliata: "Soglia DD minima: 17.23% (8.23% + 9.00%)"
+//           - 🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici
+//           - 🔄 Correzioni formattazione numerica con precisione decimali dal broker
+//           - 🎯 Migliorati calcoli visualizzazione TP dinamico con decimali corretti
+//           - 🛡️ Migliorate protezioni contro errori di arrotondamento prezzi
+//           - 📱 HUD operativo aggiornato con informazioni più chiare sulla soglia DD
+//           - 🎨 Migliorata formattazione etichette grafiche con decimali broker-specific
+//
+//    v2.1.0 (01 Giugno 2025 - Miglioramenti Controlli RSI e Filtri)
+//           - ✅ Aggiunto controllo ON/OFF per filtro Delta Minimo RSI
+//           - ✅ Aggiunto controllo ON/OFF per Barre Conferma Segnale
+//           - 🔍 Migliorata diagnostica per timing aperture posizioni (chiusura barra attuale/successiva)
+//           - 📊 Log dettagliati sui controlli di validazione segnali e timing esecuzione
+//           - 📑 Ottimizzazione complessiva dei filtri di qualità segnali
+//
+//    v2.1.1 (10 Giugno 2025 - Fix Logica Contrarian)
+//           - ✅ Corretto bug critico nella logica della modalità Contrarian
+//           - 🔄 Risolto problema di inversione errata dei segnali RSI
+//           - ⚠️ In modalità Contrarian ora:
+//               - Segnale LONG (RSI ipervenduto) → apre posizione LONG
+//               - Segnale SHORT (RSI ipercomprato) → apre posizione SHORT
+//           - 🧪 Aggiunti test di validazione per tutte le combinazioni di modalità/segnali
+//           - 📊 Migliorata diagnostica con log espliciti della direzione operativa
+//
+//    v2.1.2 (20 Giugno 2025 - Fix Logica TrendFollowing e HUD)
+//           - ✅ Corretto comportamento della modalità TrendFollowing
+//           - 🔄 Implementata corretta inversione segnali in TrendFollowing:
+//               - Segnale LONG (RSI ipervenduto) → apre posizione SHORT
+//               - Segnale SHORT (RSI ipercomprato) → apre posizione LONG
+//           - 🎨 Corretta la visualizzazione della direzione operativa nell'HUD
+//           - 📊 Aggiornato HUD diagnostico per mostrare segnali coerenti con la modalità selezionata
+//           - 🔍 Migliorati log di debug con tracciamento della modalità RSI e direzione operativa
+//           - 🏷️ Etichette grafiche ora mostrano correttamente la direzione effettiva dell'operazione
+///
+//    v2.1.3 (04 Giugno 2025 - Ottimizzazioni generali e miglioramenti performance)
+//           - 🔄 Ottimizzazione del sistema di gestione memoria e visualizzazione HUD
+//           - ⚡ Migliorata efficienza calcoli ripetitivi per TP dinamico e recovery
+//           - 🛡️ Rafforzata la gestione degli errori e protezioni di sicurezza
+//           - 🖥️ Ottimizzata visualizzazione HUD con refresh ridotti per migliori performance
+//           - 📊 Raffinato sistema diagnostico RSI con riduzione overhead computazionale
+//           - 🚀 Miglioramenti generali stabilità per funzionamento prolungato in VPS
+//           - 📝 Aggiornato sistema licenze per migliore compatibilità e verifica
+//
+//    v2.2.0 (04 Giugno 2025)
+//           - 🔑 Implementazione sistema completo di licenze online/offline
+//           - 🛡️ Migliorato sistema sicurezza e verifica integrità licenza
+//           - 🔄 Aggiunto sistema automatico di controllo aggiornamenti
+//           - 📋 Gestione avanzata aggiornamenti obbligatori/opzionali
+//           - 💻 Interfaccia migliorata per visualizzazione stato licenza
+//           - 📂 Supporto memorizzazione locale per licenze offline
+//
+// ============================================================================
