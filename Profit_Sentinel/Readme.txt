@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.3.0 - Sistema Licenze e Controllo Aggiornamenti
-// Build Date: 05-06-2025
+// Versione: 2.3.1 - Fix Compatibilità HUD e Ottimizzazioni Query
+// Build Date: 06-06-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ==================================================================================
@@ -406,4 +406,77 @@
 //           - 🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso
 //           - 🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte
 //
-// ============================================================================
+//    v2.3.1 (06 Giugno 2025 - Fix Compatibilità HUD e Ottimizzazioni Query)
+//           - ✅ Corretto errore critico nel rendering HUD: metodo FindAll sostituito con approccio LINQ
+//           - 🔄 Migliorata compatibilità con interfacce di collezione cTrader
+//           - 🧹 Ottimizzazione query sulle posizioni
+//           - 🛡️ Maggiore resilienza nella gestione delle collezioni di posizioni
+//           - 🔍 Perfezionamento logging diagnostico
+//           - 🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco
+//
+// ==================================================================================================== 
+// 📘 LEGENDA EMOJI — ProfitSentinel HUD e Diagnostica 
+// ==================================================================================================== 
+// 📊 / 🛡️   = Intestazioni generali / HUD esteso 
+// 📱 / 🖥️   = HUD compatto / esteso 
+// ★          = Titolo HUD compatto 
+// vX.X.X     = Versione build 
+// 
+// 💰 PROFITTO E TP DINAMICO 
+// •          = Bullet info 
+// ✅ / ❌     = Attivo / Disattivo 
+// ⏳         = In attesa trigger TP dinamico 
+// 🎯         = Target raggiunto (BE / TP) 
+// 🚀         = Volo libero (profitto extra) 
+// 🌱         = Base sicura 
+// 📈         = Crescita stabile / segnale LONG 
+// 🏹         = Mira al massimo 
+// 🌈         = Performance brillante 
+// 💰         = Profitto extra 
+// 🔴 / 🟢 / 🟡 = Stato TP dinamico / MinProfitCheck
+// 🚦         = Via libera (stato TP dinamico)
+// 
+// 📍 / 📌 / 🧪 = BreakEven (target, debug, log tecnico) 
+// 📉         = Segnale SHORT (RSI) / log 
+// 🎯         = Soglia target BreakEven 
+// ■ / ░      = Slider distanza BE (pips) 
+// 
+// 🔁 RECOVERY 
+// 🔁         = Stato Recovery 
+// 🧩 / ⚖️ / 🔥 = Recovery Mode: Standard / Bilanciato / Aggressivo 
+// 🔵 / 🟢 / 🟠 = Recovery Reference: Balance / Equity / FreeMargin 
+// 🔄         = Chiusura sicura 
+// 
+// 🧭 SWING / TREND 
+// 🔻 / 🔺     = Swing LOW (LONG) / HIGH (SHORT) 
+// ○ / –      = Nessun segnale / neutro 
+// ↓L / ↑S    = Swing compatto 
+// 
+// 📈 / 📉 / – = Segnale RSI Multi-TF 
+// Δ          = Differenza RSI base vs superiore 
+// ⚠️         = Avviso / warning 
+// ⛔         = Blocco critico (es. chiusura impedita) 
+// ⚪         = Disattivato / nessun dato 
+// 🟢 OK / 🔴 BLOCCO / 🟡 Toll. = Stato filtri RSI, distanza, minProfit 
+// 
+// 🧪 DEBUG 
+// 🧪         = Info debug tecnica (es. BE bid/pip info) 
+// 📌         = Target BE calcolato 
+// 
+// ⏱         = Timestamp ultimo ordine 
+// 🔧 / 🔒     = Configurazioni e blocchi
+// 🔍         = Analisi o verifica dettagliata
+// 🎚️         = Filtro o impostazione
+// 🧠         = Diagnostica avanzata/intelligente
+// 📋         = Log o elenco informazioni
+// 🕒 / 🕓     = Timing o orario specifico
+// 📝         = Note o annotazioni
+// 📂         = File o salvataggio dati
+// 🔑 / 🔐     = Licenza o autenticazione
+// 📡         = Connessione o modalità online
+// 📦         = Prodotto o pacchetto
+// 🛑         = Stop o blocco trailing
+// 🧹         = Pulizia o reset completo
+// 🪪         = Identità o credenziali
+// 
+//=======================================================================================================================
