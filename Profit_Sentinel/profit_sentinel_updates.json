@@ -5,15 +5,15 @@
   "required": true,
   "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali\nco l'integrazione del filtro EMA.",
   "changelog": [
-    "✅ Disabilitazione automatica dell'HUD RSI durante posizioni aperte",
-    "🛡️ Prevenzione gestione segnali RSI durante trade attivi",
-    "🧹 Migliorata visualizzazione HUD con messaggio chiaro sullo stato sospeso",
-    "📈 Ottimizzata gestione memoria con minore overhead durante trade attivi",
+    "🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco",
+    "🔍 Implementato innovativo sistema di rilevamento swing points nell'RSI",
+    "📊 Analisi avanzata dei pattern di tendenza con identificazione picchi e valli",
+    "🔄 Filtro curvatura RSI completamente riprogettato con approccio dual-mode",
     "⚙️ Riattivazione automatica analisi RSI dopo chiusura di tutte le posizioni",
-    "🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso",
-    "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici",
+    "⚖️ Valutazione dinamica della forza e regolarità degli swing per conferma segnali",
+    "🔧 Ottimizzati parametri di sensibilità per adattamento a diversi mercati",
     "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte",
     "🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte",
-    "🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco"
+    "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte"
   ]
 }
