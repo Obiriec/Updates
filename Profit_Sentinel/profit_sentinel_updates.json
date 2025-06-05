@@ -1,17 +1,16 @@
 {
-  "version": "2.2.0",
-  "build_date": "2025-06-04",
+  "version": "2.3.0",
+  "build_date": "2025-06-05",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
   "required": true,
-  "message": "È disponibile una nuova versione con implementazione completa del sistema Recovery e Ottimizzazioni.",
+  "message": "È disponibile una nuova versione con miglioramenti importanti all'HUD RSI e alla gestione dei segnali.",
   "changelog": [
-    "✅ Migliorata visualizzazione della soglia DD minima per recovery nell'HUD",
-    "📊 Aggiunta formattazione dettagliata: Soglia DD minima: 17.23% (8.23% + 9.00%)",
-    "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici",
-    "🔄 Correzioni formattazione numerica con precisione decimali dal broker",
-    "📱 HUD operativo aggiornato con informazioni più chiare sulla soglia DD",
-    "✅ Corretto bug critico nella logica della modalità Contrarian",
-    "⚡ Migliorata efficienza calcoli ripetitivi per TP dinamico e recovery",
-    "📊 Raffinato sistema diagnostico RSI con riduzione overhead computazionale"
+    "✅ Disabilitazione automatica dell'HUD RSI durante posizioni aperte",
+    "🛡️ Prevenzione gestione segnali RSI durante trade attivi",
+    "🧹 Migliorata visualizzazione HUD con messaggio chiaro sullo stato sospeso",
+    "📈 Ottimizzata gestione memoria con minore overhead durante trade attivi",
+    "⚙️ Riattivazione automatica analisi RSI dopo chiusura di tutte le posizioni",
+    "🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso",
+    "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici"
   ]
 }
