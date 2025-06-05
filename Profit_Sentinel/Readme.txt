@@ -404,5 +404,6 @@
 //           - 📈 Ottimizzata gestione memoria con minore overhead durante trade attivi
 //           - ⚙️ Riattivazione automatica analisi RSI dopo chiusura posizioni
 //           - 🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso
+//           - 🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte
 //
 // ============================================================================
