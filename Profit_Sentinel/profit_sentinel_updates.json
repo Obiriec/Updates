@@ -11,6 +11,8 @@
     "📈 Ottimizzata gestione memoria con minore overhead durante trade attivi",
     "⚙️ Riattivazione automatica analisi RSI dopo chiusura di tutte le posizioni",
     "🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso",
-    "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici"
+    "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici",
+    "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte",
+    "🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte"
   ]
 }
