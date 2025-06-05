@@ -1,7 +1,7 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.3.1 - Fix Compatibilità HUD e Ottimizzazioni Query
+// Versione: 2.4.0 - Sistema Avanzato Filtro RSI Swing Detection
 // Build Date: 06-06-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
@@ -413,6 +413,18 @@
 //           - 🛡️ Maggiore resilienza nella gestione delle collezioni di posizioni
 //           - 🔍 Perfezionamento logging diagnostico
 //           - 🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco
+//
+//    v2.4.0 (06 giugno 2025 - Sistema Avanzato Filtro RSI Swing Detection)
+//           - 🔍 Implementato innovativo sistema di rilevamento swing points nell'RSI
+//           - 📊 Analisi avanzata dei pattern di tendenza con identificazione picchi e valli
+//           - 🔄 Filtro curvatura RSI completamente riprogettato con approccio dual-mode
+//           - 🧮 Sistema ibrido che combina analisi tradizionale (3 barre) e swing detection (trend) 
+//           - ⚖️ Valutazione dinamica della forza e regolarità degli swing per conferma segnali
+//           - 📈 Migliorata drasticamente l'affidabilità dei segnali sui timeframe superiori
+//           - 🛡️ Riduzione falsi negativi mantenendo l'efficacia del filtro qualitativo
+//           - 📱 Log dettagliati con analisi completa dei pattern rilevati
+//           - 🧪 Implementato confronto automatico tra metodo classico e swing detection
+//           - 🔧 Ottimizzati parametri di sensibilità per adattamento a diversi mercati
 //
 // ==================================================================================================== 
 // 📘 LEGENDA EMOJI — ProfitSentinel HUD e Diagnostica 
