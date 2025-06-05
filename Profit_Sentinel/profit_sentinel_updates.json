@@ -1,9 +1,9 @@
 {
-  "version": "2.3.0",
+  "version": "2.3.1",
   "build_date": "2025-06-05",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
   "required": true,
-  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali.",
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali\nco l'integrazione del filtro EMA.",
   "changelog": [
     "✅ Disabilitazione automatica dell'HUD RSI durante posizioni aperte",
     "🛡️ Prevenzione gestione segnali RSI durante trade attivi",
@@ -13,6 +13,7 @@
     "🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso",
     "🧠 Ottimizzato calcolo decimali per visualizzazione prezzi dinamici",
     "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte",
-    "🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte"
+    "🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte",
+    "🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco"
   ]
 }
