@@ -3,9 +3,7 @@
   "build_date": "2025-06-05",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
   "required": true,
-  "message": [ "È disponibile una nuova versione con miglioramenti importanti per",
-"Logica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali." 
-    ]
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali.",
   "changelog": [
     "✅ Disabilitazione automatica dell'HUD RSI durante posizioni aperte",
     "🛡️ Prevenzione gestione segnali RSI durante trade attivi",
