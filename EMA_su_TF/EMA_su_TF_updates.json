@@ -1,1 +1,17 @@
-
+{
+  "version": "1.1.0",
+  "build_date": "2025-06-15",
+  "download_url": "https://t.me/Obiriec",
+  "required": false,
+  "message": "Miglioramenti significativi e correzioni di bug importanti",
+  "changelog": [
+    "Aggiunta opzione per personalizzare lo spessore della linea EMA",
+    "Migliorata la precisione del calcolo EMA nelle transizioni di timeframe",
+    "Ottimizzate le prestazioni dell'indicatore per ridurre il consumo di memoria",
+    "Aggiunta opzione per visualizzare etichette di prezzo accanto alla linea EMA",
+    "Corretto bug nella visualizzazione dell'etichetta informativa",
+    "Migliorata la compatibilità con i temi scuri e chiari",
+    "Aggiunto supporto per timeframe personalizzati",
+    "Ottimizzato il sistema di aggiornamento automatico"
+  ]
+}
