@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.2.0 - Sistema Licenze e Controllo Aggiornamenti
-// Build Date: 04-06-2025
+// Versione: 2.3.0 - Sistema Licenze e Controllo Aggiornamenti
+// Build Date: 05-06-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ==================================================================================
@@ -396,5 +396,13 @@
 //           - 📋 Gestione avanzata aggiornamenti obbligatori/opzionali
 //           - 💻 Interfaccia migliorata per visualizzazione stato licenza
 //           - 📂 Supporto memorizzazione locale per licenze offline
+//
+//    v2.3.0 (05 Giugno 2025 - Miglioramenti HUD RSI e Prestazioni)
+//           - ✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte
+//           - 🛡️ Prevenzione gestione segnali RSI durante trade attivi per evitare confusione
+//           - 🧹 Migliorata visualizzazione HUD con messaggio chiaro sullo stato sospeso
+//           - 📈 Ottimizzata gestione memoria con minore overhead durante trade attivi
+//           - ⚙️ Riattivazione automatica analisi RSI dopo chiusura posizioni
+//           - 🔄 Migliorata coerenza fra HUD operativo e diagnostico durante operazioni in corso
 //
 // ============================================================================
