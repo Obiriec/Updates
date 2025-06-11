@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.4.0 - Sistema Avanzato Filtro RSI Swing Detection
-// Build Date: 06-06-2025
+// Versione: 2.4.1 - Correzione calcolo MinProfitCheck
+// Build Date: 11-06-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ==================================================================================
@@ -425,6 +425,12 @@
 //           - 📱 Log dettagliati con analisi completa dei pattern rilevati
 //           - 🧪 Implementato confronto automatico tra metodo classico e swing detection
 //           - 🔧 Ottimizzati parametri di sensibilità per adattamento a diversi mercati
+//
+//    v2.4.1 (11 Giugno 2025 - Correzione calcolo MinProfitCheck)
+//           - ✅ Corretto calcolo MinProfitCheck per utilizzare solo il margine del simbolo attuale
+//           - 🔧 Implementato metodo GetSymbolMargin per calcolare correttamente il margine solo per il simbolo corrente
+//           - 🎛️ Migliorata visualizzazione nell'HUD dei requisiti MinProfit con valori più precisi
+//           - 🛡️ Maggiore stabilità nelle operazioni di controllo margine minimi
 //
 // ==================================================================================================== 
 // 📘 LEGENDA EMOJI — ProfitSentinel HUD e Diagnostica 
