@@ -1,6 +1,6 @@
 {
-  "version": "1.5.1",
-  "build_date": "2023-11-15",
+  "version": "1.5.0",
+  "build_date": "2025-06-11",
   "download_url": "https://obiriec.github.io/Updates/Fibo_Power/Fibo_Power.zip",
   "required": false,
   "message": "È disponibile una nuova versione con miglioramenti importanti per\nla gestione della volatilità e filtraggio dei segnali.",
