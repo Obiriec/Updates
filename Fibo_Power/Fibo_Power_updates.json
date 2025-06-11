@@ -1,13 +1,13 @@
 {
-  "version": "1.0.0",
-  "build_date": "2025-06-05",
+  "version": "1.5.0",
+  "build_date": "2023-11-15",
   "download_url": "https://obiriec.github.io/Updates/Fibo_Power/Fibo_Power.zip",
   "required": false,
-  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica del calcolo MinProfitCheck.",
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nla gestione della volatilità e filtraggio dei segnali.",
   "changelog": [
-    "✅ Corretto calcolo MinProfitCheck per utilizzare solo il margine del simbolo attuale",
-    "🔧 Implementato metodo GetSymbolMargin per calcolare correttamente il margine solo per il simbolo corrente",
-    "🎛️ Migliorata visualizzazione nell'HUD dei requisiti MinProfit con valori più precisi",
-    "🛡️ Maggiore stabilità nelle operazioni di controllo margine minimi"
+    "✅ Aggiunto filtro di volatilità basato su ATR per limitare segnali durante alta volatilità",
+    "🔧 Implementata visualizzazione degli avvisi di alta volatilità sul grafico",
+    "🎛️ Ottimizzata gestione dei livelli e rilevamento swing durante periodi volatili",
+    "🛡️ Sistema avanzato di gestione avvisi con prioritizzazione e visualizzazione intelligente"
   ]
 }
