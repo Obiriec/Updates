@@ -1,19 +1,13 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "build_date": "2025-06-05",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
-  "required": true,
-  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica Recovery e Ottimizzazioni all'HUD RSI e alla gestione dei segnali\nco l'integrazione del filtro EMA.",
+  "required": false,
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica del calcolo MinProfitCheck.",
   "changelog": [
-    "🔍 Integrato filtro EMA per validazione segnali RSI con modalità suggerimento o blocco",
-    "🔍 Implementato innovativo sistema di rilevamento swing points nell'RSI",
-    "📊 Analisi avanzata dei pattern di tendenza con identificazione picchi e valli",
-    "🔄 Filtro curvatura RSI completamente riprogettato con approccio dual-mode",
-    "⚙️ Riattivazione automatica analisi RSI dopo chiusura di tutte le posizioni",
-    "⚖️ Valutazione dinamica della forza e regolarità degli swing per conferma segnali",
-    "🔧 Ottimizzati parametri di sensibilità per adattamento a diversi mercati",
-    "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte",
-    "🚫 Implementato blocco automatico etichette grafiche RSI durante posizioni aperte",
-    "✅ Implementata disabilitazione automatica HUD RSI durante posizioni aperte"
+    "✅ Corretto calcolo MinProfitCheck per utilizzare solo il margine del simbolo attuale",
+    "🔧 Implementato metodo GetSymbolMargin per calcolare correttamente il margine solo per il simbolo corrente",
+    "🎛️ Migliorata visualizzazione nell'HUD dei requisiti MinProfit con valori più precisi",
+    "🛡️ Maggiore stabilità nelle operazioni di controllo margine minimi"
   ]
 }
