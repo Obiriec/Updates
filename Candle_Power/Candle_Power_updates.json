@@ -1,1 +1,13 @@
-
+{
+  "version": "1.5.0",
+  "build_date": "2025-06-20",
+  "download_url": "https://obiriec.github.io/Updates/Candle_Power/Candle_Power.zip",
+  "required": false,
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nla gestione della volatilità e filtraggio dei segnali.",
+  "changelog": [
+    "✅ Aggiunto filtro di volatilità basato su ATR per limitare segnali durante alta volatilità",
+    "🔧 Implementata visualizzazione degli avvisi di alta volatilità sul grafico",
+    "🎛️ Ottimizzata gestione dei livelli e rilevamento swing durante periodi volatili",
+    "🛡️ Sistema avanzato di gestione avvisi con prioritizzazione e visualizzazione intelligente"
+  ]
+}
