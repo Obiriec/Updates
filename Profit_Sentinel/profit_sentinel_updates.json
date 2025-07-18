@@ -8,10 +8,10 @@
     "✅ Aggiunto controllo di sicurezza per evitare aperture multiple sullo stesso simbolo",
     "🔧 Migliorata gestione delle posizioni esistenti prima dell'apertura di nuove",
     "🎛️ Ottimizzato meccanismo temporale per prevenire segnali troppo ravvicinati",
-    "🛡️ Potenziata gestione sicura dei flag pendenti nel modulo di recovery,"
-    "📊 Integrata sincronizzazione thread-safe per operazioni concorrenti,"
-    "🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate,"
-    "🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee,"
+    "🛡️ Potenziata gestione sicura dei flag pendenti nel modulo di recovery",
+    "📊 Integrata sincronizzazione thread-safe per operazioni concorrenti",
+    "🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate",
+    "🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee",
     "🛠️ Consolidato modulo di protezione doppie operazioni nel metodo EseguiSegnaleRSI"
   ]
 }
