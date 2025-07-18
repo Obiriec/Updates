@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.4.1 - Correzione calcolo MinProfitCheck
-// Build Date: 11-06-2025
+// Versione: 2.6.0 - Thread-Safe Protection System
+// Build Date: 18-07-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ==================================================================================
@@ -133,9 +133,9 @@
 //           - 📌 Changelog e intestazione aggiornati alla v1.5.9-r2 (Fury Team Release Mode)
 //
 //    v1.5.9-r3 (3 Maggio 2025 - Fix HUDCompatto BreakEven Definitivo)
-//           - ✅ HUD Compatto aggiornato: ora mostra sempre il prezzo reale di chiusura BreakEven (target), non più l’EntryPrice.
+//           - ✅ HUD Compatto aggiornato: ora mostra sempre il prezzo reale di chiusura BreakEven (target), non più l'EntryPrice.
 //           - ✅ Corretto calcolo e visualizzazione distanza pips nello slider BE, ora allineato al target reale.
-//           - ✅ Righe “BE: ... €” e “BE Target: ...” ora derivano da GetBreakEvenTargetPrice() anche nel compatto.
+//           - ✅ Righe "BE: ... €" e "BE Target: ..." ora derivano da GetBreakEvenTargetPrice() anche nel compatto.
 //           - 🔁 Pulizia uso variabile `be` nel metodo DrawHUDCompatto(): sostituito con calcolo diretto coerente.
 //           - 🛠️ Nessun impatto sulle logiche operative o di chiusura reali: solo miglioramento visuale coerente.
 //
@@ -154,7 +154,7 @@
 //
 //    v1.6.0 (04 Maggio 2025 - Rilascio Finale Stabile HUD+BE)
 //           - 🧱 Versione finale stabile dichiarata: HUD Esteso e HUD Compatto definitivi
-//           - ✅ Corretto duplicato versione nell’HUD compatto: ora mostra solo `BUILD_ID` coerente
+//           - ✅ Corretto duplicato versione nell'HUD compatto: ora mostra solo `BUILD_ID` coerente
 //           - ✅ Restyling completo `DrawHUDCompatto()`: ora più leggibile, diretto, efficiente
 //           - 🎯 Tutte le visualizzazioni BE ora coerenti: slider, target, distanza pips
 //           - 📌 Versione ufficiale *Fury Team Release v1.6.0* marcata come stabile per utilizzo operativo
@@ -431,6 +431,29 @@
 //           - 🔧 Implementato metodo GetSymbolMargin per calcolare correttamente il margine solo per il simbolo corrente
 //           - 🎛️ Migliorata visualizzazione nell'HUD dei requisiti MinProfit con valori più precisi
 //           - 🛡️ Maggiore stabilità nelle operazioni di controllo margine minimi
+//
+//    v2.5.0 (08 Luglio 2025 - Ottimizzazione Filtri RSI e Modularizzazione Validazione)
+//           - ✅ Unificati i filtri di qualità RSI (AbilitaFiltroPersistenzaRSI e AbilitaBarreConfermaSegnale)
+//           - 🧩 Rifattorizzato il metodo ValidaSegnaleRSIConQualita in componenti modulari con responsabilità specifiche
+//           - 📊 Implementato sistema di filtri più flessibile con conteggio proporzionale (50% superati = valido)
+//           - 🛡️ Risolto bug critico che impediva l'apertura di posizioni con filtro barre conferma attivo
+//           - 🔄 Migliorata gestione delle code di validazione segnali per tracking corretto validità consecutiva
+//           - ⚙️ Aggiunto enum TipoConsistenzaRSI per personalizzare il rigore della validazione (Standard/Avanzato/Rigoroso)
+//           - 📝 Ottimizzato logging con informazioni diagnostiche dettagliate sui filtri attivi e relativo stato
+//           - 🔧 Supporto retrocompatibilità completa con configurazioni esistenti
+//           - 📈 Migliorata l'efficacia della validazione segnali con minore rigidità e maggiore adattabilità
+//           - 🧠 Struttura modulare che facilita estensioni e personalizzazioni future dei criteri di validazione
+//
+//    v2.6.0 (18 Luglio 2025 - Thread-Safe Protection System)
+//           - 🔒 Implementato sistema anti-duplicazione per segnali RSI con lock thread-safe
+//           - 🛡️ Aggiunto controllo di sicurezza per evitare aperture multiple sullo stesso simbolo
+//           - ✅ Migliorata gestione delle posizioni esistenti prima dell'apertura di nuove
+//           - ⏱️ Ottimizzato meccanismo temporale per prevenire segnali troppo ravvicinati
+//           - 🔧 Potenziata gestione sicura dei flag pendenti nel modulo di recovery
+//           - 📊 Integrata sincronizzazione thread-safe per operazioni concorrenti
+//           - 🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate
+//           - 🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee
+//           - 🛠️ Consolidato modulo di protezione doppie operazioni nel metodo EseguiSegnaleRSI
 //
 // ==================================================================================================== 
 // 📘 LEGENDA EMOJI — ProfitSentinel HUD e Diagnostica 
