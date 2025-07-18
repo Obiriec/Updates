@@ -1,13 +1,17 @@
 {
-  "version": "2.4.1",
+  "version": "2.6.0",
   "build_date": "2025-06-05",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
   "required": false,
-  "message": "È disponibile una nuova versione con miglioramenti importanti per\nLogica del calcolo MinProfitCheck.",
+  "message": "È disponibile una nuova versione con miglioramenti importanti per\nImplementato sistema anti-duplicazione per segnali RSI con lock thread-safe.",
   "changelog": [
-    "✅ Corretto calcolo MinProfitCheck per utilizzare solo il margine del simbolo attuale",
-    "🔧 Implementato metodo GetSymbolMargin per calcolare correttamente il margine solo per il simbolo corrente",
-    "🎛️ Migliorata visualizzazione nell'HUD dei requisiti MinProfit con valori più precisi",
-    "🛡️ Maggiore stabilità nelle operazioni di controllo margine minimi"
+    "✅ Aggiunto controllo di sicurezza per evitare aperture multiple sullo stesso simbolo",
+    "🔧 Migliorata gestione delle posizioni esistenti prima dell'apertura di nuove",
+    "🎛️ Ottimizzato meccanismo temporale per prevenire segnali troppo ravvicinati",
+    "🛡️ Potenziata gestione sicura dei flag pendenti nel modulo di recovery,"
+    "📊 Integrata sincronizzazione thread-safe per operazioni concorrenti,"
+    "🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate,"
+    "🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee,"
+    "🛠️ Consolidato modulo di protezione doppie operazioni nel metodo EseguiSegnaleRSI"
   ]
 }
