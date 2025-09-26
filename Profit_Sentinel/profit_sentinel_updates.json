@@ -1,17 +1,20 @@
 {
-  "version": "2.6.0",
-  "build_date": "2025-06-05",
+  "version": "2.7.0",
+  "build_date": "2025-09-26",
   "download_url": "https://obiriec.github.io/Updates/Profit_Sentinel/Profit_Sentinel.zip",
   "required": false,
   "message": "È disponibile una nuova versione con miglioramenti importanti:\nImplementato sistema anti-duplicazione per segnali RSI con lock thread-safe.",
   "changelog": [
-    "✅ Aggiunto controllo di sicurezza per evitare aperture multiple sullo stesso simbolo",
-    "🔧 Migliorata gestione delle posizioni esistenti prima dell'apertura di nuove",
-    "🎛️ Ottimizzato meccanismo temporale per prevenire segnali troppo ravvicinati",
-    "🛡️ Potenziata gestione sicura dei flag pendenti nel modulo di recovery",
-    "📊 Integrata sincronizzazione thread-safe per operazioni concorrenti",
-    "🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate",
-    "🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee",
-    "🛠️ Consolidato modulo di protezione doppie operazioni nel metodo EseguiSegnaleRSI"
+    "🚀 Migliorata stabilità complessiva del sistema con ottimizzazioni core",
+    "⚡ Riduzione consumo memoria e CPU durante operazioni di lunga durata",
+    "🧠 Algoritmi di calcolo profitto e drawdown ottimizzati per maggiore efficienza",
+    "🎯 Consolidamento delle implementazioni thread-safe e protezioni operazioni multiple",
+    "🔍 Affinamento sistema di diagnostica e rilevamento anomalie in tempo reale",
+    "🎮 Aggiunti controlli per spostamento preciso dell'interfaccia HUD (orizzontale/verticale)",
+    "📊 Miglioramento refresh HUD con riduzione dell'impatto prestazionale",
+    "🛡️ Ottimizzazioni di sicurezza e verifica integrità delle operazioni critiche",
+    "📝 Aggiornati log diagnostici con informazioni più precise e categorizzate",
+    "🖥️ Perfezionamento posizionamento elementi HUD per compatibilità multi-schermo",
+    "🧹 Pulizia codice e ottimizzazione interna componenti principali"
   ]
 }
