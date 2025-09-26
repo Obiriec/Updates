@@ -1,8 +1,8 @@
 // ===================================================================================================
 // PROFIT SENTINEL - Sviluppato da Armando Brecciaroli per Fury Team ©2023-2025
 // Strategia Automatica Multi-Livello con Moduli Dinamici Recovery / TP / RSI Signal Engine
-// Versione: 2.6.0 - Thread-Safe Protection System
-// Build Date: 18-07-2025
+// Versione: 2.7.0 - Advanced Stability & Performance Optimization
+// Build Date: 26-09-2025
 // Sviluppato per cTrader Automate API
 // © Tutti i diritti riservati - Prodotto non ridistribuibile
 // ==================================================================================
@@ -444,16 +444,29 @@
 //           - 📈 Migliorata l'efficacia della validazione segnali con minore rigidità e maggiore adattabilità
 //           - 🧠 Struttura modulare che facilita estensioni e personalizzazioni future dei criteri di validazione
 //
-//    v2.6.0 (18 Luglio 2025 - Thread-Safe Protection System)
+//    v2.6.0 (01 Agosto 2025 - Thread-Safe Protection & HUD Enhanced Positioning)
 //           - 🔒 Implementato sistema anti-duplicazione per segnali RSI con lock thread-safe
 //           - 🛡️ Aggiunto controllo di sicurezza per evitare aperture multiple sullo stesso simbolo
 //           - ✅ Migliorata gestione delle posizioni esistenti prima dell'apertura di nuove
 //           - ⏱️ Ottimizzato meccanismo temporale per prevenire segnali troppo ravvicinati
 //           - 🔧 Potenziata gestione sicura dei flag pendenti nel modulo di recovery
+//           - 🖥️ Implementato posizionamento HUD Operativo con margini personalizzabili in pixel
+//           - 🎮 Aggiunti controlli per spostamento preciso dell'interfaccia HUD (orizzontale/verticale)
+//           - 🎯 Migliorata precisione nel posizionamento di tutti gli elementi grafici su schermo
 //           - 📊 Integrata sincronizzazione thread-safe per operazioni concorrenti
 //           - 🧠 Migliorato sistema di logging con tracciamento dettagliato delle operazioni rifiutate
-//           - 🔍 Rafforzato sistema di verifica stato posizioni per protezione aperture simultanee
-//           - 🛠️ Consolidato modulo di protezione doppie operazioni nel metodo EseguiSegnaleRSI
+//
+//    v2.7.0 (26 Settembre 2025 - Advanced Stability & Performance Optimization)
+//           - 🚀 Migliorata stabilità complessiva del sistema con ottimizzazioni core
+//           - ⚡ Riduzione consumo memoria e CPU durante operazioni di lunga durata
+//           - 🧠 Algoritmi di calcolo profitto e drawdown ottimizzati per maggiore efficienza
+//           - 🎯 Consolidamento delle implementazioni thread-safe e protezioni operazioni multiple
+//           - 🔍 Affinamento sistema di diagnostica e rilevamento anomalie in tempo reale
+//           - 📊 Miglioramento refresh HUD con riduzione dell'impatto prestazionale
+//           - 🛡️ Ottimizzazioni di sicurezza e verifica integrità delle operazioni critiche
+//           - 📝 Aggiornati log diagnostici con informazioni più precise e categorizzate
+//           - 🖥️ Perfezionamento posizionamento elementi HUD per compatibilità multi-schermo
+//           - 🧹 Pulizia codice e ottimizzazione interna componenti principali
 //
 // ==================================================================================================== 
 // 📘 LEGENDA EMOJI — ProfitSentinel HUD e Diagnostica 
